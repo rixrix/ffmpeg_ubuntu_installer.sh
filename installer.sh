@@ -21,4 +21,4 @@ $CURRENT_DIR/libopus.sh
 $CURRENT_DIR/libvpx.sh
 $CURRENT_DIR/ffmpeg.sh
 
-echo "FFmpeg installed!"
+echo 'FFmpeg installed!'
