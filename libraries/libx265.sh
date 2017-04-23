@@ -6,9 +6,9 @@
 # NOTE:
 #   - added `cmake-curses-gui` to install ccmake, see https://askubuntu.com/questions/121797/how-do-i-install-ccmake#comment145027_121800
 #   - run `./make-Makefiles.bash`, mentioned in https://bitbucket.org/multicoreware/x265/wiki/Home, see `Linux Instructions`
+# Package:
+#   - cmake-curses-gui, cmake, mercurial
 #------------------------------------------------------------------------------
-
-sudo apt-get -y install cmake-curses-gui cmake mercurial
 
 cd $FFMPEG_SOURCE_DIR
 

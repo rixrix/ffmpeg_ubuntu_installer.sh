@@ -27,8 +27,8 @@ PATH="$FFMPEG_BIN_DIR:$PATH" PKG_CONFIG_PATH="$FFMPEG_BUILD_DIR/lib/pkgconfig" .
   --enable-libvorbis \
   --enable-libvpx \
   --enable-libx264 \
-  --enable-libx265 \
   --enable-nonfree
+  # --enable-libx265 \
 
 PATH="$FFMPEG_BIN_DIR:$PATH" make
 make install
